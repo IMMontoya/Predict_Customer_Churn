@@ -1,0 +1,10 @@
+f1_score,auc_roc,params,algorithm,method
+0.5594405594405595,0.7281628731894769,"{'class_weight': 'balanced', 'max_depth': None, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",DecisionTreeClassifier,balanced argument
+0.553846153846154,0.7449009754655632,"{'class_weight': 'balanced', 'max_depth': 10, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",DecisionTreeClassifier,balanced argument
+0.4846526655896607,0.7011897723913686,"{'class_weight': 'balanced', 'max_depth': 1, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",DecisionTreeClassifier,balanced argument
+0.6221662468513853,0.7590402995369002,"{'class_weight': 'balanced', 'n_estimators': 100, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",RandomForrestClassifier,balanced argument
+0.6198243412797992,0.7580980884816239,"{'class_weight': 'balanced', 'n_estimators': 75, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",RandomForrestClassifier,balanced argument
+0.6118836915297093,0.7522847078529905,"{'class_weight': 'balanced', 'n_estimators': 50, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",RandomForrestClassifier,balanced argument
+0.49476688867745,0.6983385062567741,"{'class_weight': 'balanced', 'solver': 'lbfgs', 'dual': False, 'penalty': 'l2'}",LogisticRegression,balanced argument
+0.49476688867745,0.6983385062567741,"{'class_weight': 'balanced', 'solver': 'liblinear', 'dual': False, 'penalty': 'l2'}",LogisticRegression,balanced argument
+0.49476688867745,0.6983385062567741,"{'class_weight': 'balanced', 'solver': 'newton-cg', 'dual': False, 'penalty': 'l2'}",LogisticRegression,balanced argument
