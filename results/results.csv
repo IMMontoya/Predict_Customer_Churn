@@ -1,4 +1,4 @@
 f1_score,auc_roc,params,algorithm,method
 0.5594405594405595,0.7281628731894769,"{'class_weight': 'balanced', 'max_depth': None, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",DecisionTreeClassifier,balanced arguement
 0.6118836915297093,0.7522847078529905,"{'class_weight': 'balanced', 'n_estimators': 50, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",RandomForrestClassifier,balanced argument
-0.49476688867745,0.6983385062567741,"{'class_weight': 'balanced', 'solver': 'liblinear', 'dual': False, 'penalty': 'l2'}",LogisticRegression,balanced argument
+0.49476688867745,0.6983385062567741,"{'class_weight': 'balanced', 'solver': 'liblinear', 'dual': False, 'penalty': 'l2', 'max_iter': 100}",LogisticRegression,balanced argument
