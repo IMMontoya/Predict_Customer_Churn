@@ -1,4 +1,10 @@
 f1_score,auc_roc,params,algorithm,method
+0.6178010471204187,0.7823738791999213,"{'class_weight': None, 'n_estimators': 200, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}",RandomForrestClassifier,upsampling
+0.6061739943872778,0.7912171149866981,"{'class_weight': None, 'n_estimators': 200, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}",RandomForrestClassifier,downsampling
+0.5980582524271845,0.7788328899398955,"{'class_weight': 'balanced', 'n_estimators': 100, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}",RandomForrestClassifier,balanced argument
+0.5962264150943396,0.7817272637698295,"{'class_weight': None, 'max_depth': 6, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",DecisionTreeClassifier,downsampling
+0.5781391147244805,0.7731241994285152,"{'class_weight': None, 'max_depth': 7, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 3, 'max_features': None}",DecisionTreeClassifier,upsampling
 0.577490774907749,0.7695708936841068,"{'class_weight': 'balanced', 'max_depth': 6, 'splitter': 'best', 'criterion': 'gini', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}",DecisionTreeClassifier,balanced arguement
-0.5510534846029174,0.6960845896147404,"{'class_weight': 'balanced', 'n_estimators': 100, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}",RandomForrestClassifier,balanced argument
 0.49476688867745,0.6983385062567741,"{'class_weight': 'balanced', 'solver': 'liblinear', 'dual': False, 'penalty': 'l2', 'max_iter': 100}",LogisticRegression,balanced argument
+0.4918314703353396,0.7031912011035569,"{'class_weight': None, 'solver': 'liblinear', 'dual': False, 'penalty': 'l2', 'max_iter': 100}",LogisticRegression,downsampling
+0.4783027965284474,0.6842607646073504,"{'class_weight': None, 'solver': 'liblinear', 'dual': False, 'penalty': 'l2', 'max_iter': 100}",LogisticRegression,upsampling
