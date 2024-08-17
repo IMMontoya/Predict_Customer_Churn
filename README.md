@@ -61,7 +61,7 @@ Training without addressing class imbalance affects each model differently. The 
 - Upsampling the minority class by 3x, which maintained 'Exited'=1 as the minority class, but brought the ratio much closer to 1:1.
 - Downsampling the majority class by 0.3X, also maintained 'Exited'=1 as the minority class, but brought the ratio much closer to 1:1.
 
-The best performing target balancing method was determined to by the downsampling method. The best performing model with this method was the RandomForrestClassifier with the parameters: (`n_estimators: 500`, `criterion: gini`, `max_features: sqrt`).  
+The best performing target balancing method was determined to be the downsampling method. The best performing model with this method was the RandomForrestClassifier with the parameters: (`n_estimators: 500`, `criterion: gini`, `max_features: sqrt`).  
 ![ROC curve for best performing model and target balancing method](/images/downsampling_RandomForrestClass_RocCurve.png)
 
 ## Threshold Optimization
