@@ -1,23 +1,23 @@
 # Customer Churn Prediction
 
-## Description
-
-This project focuses on predicting customer churn for Beta Bank, aiming to help the bank effectively manage and mitigate the loss of clients. The primary goal is to achieve a model with an F1 score of at least 0.59, utilizing additional metrics like AUC-ROC for a comprehensive model evaluation. The project tests a series of models with a limited search space for tuning, along with multiple class balancing methods to determine the best approach for creating a model that identifies potential churners based on historical data reflecting clients' behaviors and interactions with the bank.
-
-[Jupyter Notebook](nb.ipynb)
-
 ## Table of Contents
 
+- [Notebook](beta_bank_churn_nb.ipynb)  
 - [Data Description](#data-description)
 - [Data Inspection and Preparation](#data-inspection-and-preparation)
 - [Initial Model Training Findings](#initial-model-training-findings)
 - [Methods for Balancing Target Class](#methods-for-balancing-target-class)
 - [Threshold Optimization](#threshold-optimization)
 - [Conclusion and Recommendations](#conclusion-and-recommendations)
+- [Libraries Used](#libraries-used)
+
+## Introduction
+
+This project focuses on predicting customer churn for Beta Bank, aiming to help the bank effectively manage and mitigate the loss of clients. The primary goal is to achieve a model with an F1 score of at least 0.59, utilizing additional metrics like AUC-ROC for a comprehensive model evaluation. The project tests a series of models with a limited search space for tuning, along with multiple class balancing methods to determine the best approach for creating a model that identifies potential churners based on historical data reflecting clients' behaviors and interactions with the bank.
 
 ## Data Description
 
-[The dataset](Churn.csv) provided by Beta Bank includes several features such as the customer's credit score, geography, gender, age, tenure, account balance, number of products, whether they have a credit card, whether they are an active member, estimated salary, and churn flag. This information is used to understand patterns and predict customer behavior towards churning.
+The dataset provided by Beta Bank includes several features such as the customer's credit score, geography, gender, age, tenure, account balance, number of products, whether they have a credit card, whether they are an active member, estimated salary, and churn flag. This information is used to understand patterns and predict customer behavior towards churning.
 
 - **CreditScore**: The credit score of the customer.
 - **Geography**: The country of residence of the customer.
@@ -77,3 +77,13 @@ After exploring various methods to balance the classes, the most effective techn
 - **Accuracy Score**: 0.82
 
 These results indicate that the Random Forest model, combined with the downsampling of the majority class, provides a reliable and effective approach to predicting customer churn at Beta Bank.
+
+## Libraries Used
+
+Python 3.10.9  
+pandas=2.0.3  
+numpy=1.25.2  
+matplotlib=3.7.1  
+tqdm=4.66.2  
+joblib=1.4.0  
+sklearn=1.2.2  
